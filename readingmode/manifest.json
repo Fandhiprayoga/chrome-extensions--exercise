@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "reading mode detik",
+    "description": "reading mode detik",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "action": {},
+    "background":{
+        "service_worker": "background.js"
+    }
+  }
