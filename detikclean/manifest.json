@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ads detik clean",
+    "description": "reading detik news article without ads banner etc",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+          "https://news.detik.com/*"
+        ]
+      }
+    ]
+  }

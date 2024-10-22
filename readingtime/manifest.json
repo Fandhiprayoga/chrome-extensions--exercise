@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "reading-time-detik",
+    "description": "Adding minute of reading in detik articles",
+    "version": "1.0",
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "hello_extensions.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+          "https://news.detik.com/*"
+        ]
+      }
+    ]
+  }
